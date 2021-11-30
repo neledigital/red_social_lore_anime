@@ -1,6 +1,6 @@
 {
-    "name": "proyectoapp",
-    "short_name": "proyectoapp",
+    "name": "red_social",
+    "short_name": "red_social",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
