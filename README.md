@@ -1,4 +1,6 @@
 # red_social
+Red social enfocada en collecionistas de anime
+La red social Lore Anime servirá a los usuarios para publicar sus actividades y publicar contenido relacionado.
 
 A new Flutter project.
 
