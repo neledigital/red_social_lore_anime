@@ -60,7 +60,7 @@ class _RegisterPageState extends State<RegisterPage> {
               child: Container(
                 margin: const EdgeInsets.all(20.0),
                 child: MaterialButton(
-                  child: const Text("Volver!"),
+                  child: const Text("Volver"),
                   onPressed: () {
                     Navigator.pop(context);
                   },
