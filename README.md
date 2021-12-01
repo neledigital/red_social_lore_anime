@@ -1,4 +1,4 @@
-# red_social
+# red_social_lore_anime
 Red social enfocada en collecionistas de anime
 La red social Lore Anime servirá a los usuarios para publicar sus actividades y publicar contenido relacionado.
 
