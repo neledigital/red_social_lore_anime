@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class EstadosWidget extends StatefulWidget {
-  const EstadosWidget({Key key}) : super(key: key);
+  const EstadosWidget({Key? key}) : super(key: key);
 
   @override
   _EstadosWidgetState createState() => _EstadosWidgetState();
@@ -17,12 +17,14 @@ class _EstadosWidgetState extends State<EstadosWidget> {
 
   @override
   Widget build(BuildContext context) {
+    var primaryColor;
+    // ignore: prefer_typing_uninitialized_variables
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
         backgroundColor: Color(0xFF701FA7),
         automaticallyImplyLeading: true,
-        actions: [],
+        actions: const [],
         centerTitle: true,
         elevation: 4,
       ),
@@ -155,7 +157,7 @@ class _EstadosWidgetState extends State<EstadosWidget> {
                     Row(
                       mainAxisSize: MainAxisSize.max,
                       crossAxisAlignment: CrossAxisAlignment.end,
-                      children: [
+                      children: const [
                         Expanded(
                           child: Align(
                             alignment: AlignmentDirectional(-0.2, 0.75),
@@ -246,4 +248,22 @@ class _EstadosWidgetState extends State<EstadosWidget> {
       ),
     );
   }
+
+  FaIcon(adjust, {color, int? size}) {}
+
+  FlutterFlowIconButton({required Color borderColor, required int borderRadius, required int borderWidth, required int buttonSize, required Icon icon, Null Function()? onPressed}) {}
+}
+
+class FontAwesomeIcons {
+  static var adjust;
+}
+
+class FlutterFlowTheme {
+  static var primaryColor;
+
+  static var tertiaryColor;
+
+  static var title2;
+
+  static var bodyText1;
 }
