@@ -5,7 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AnimesWidget extends StatefulWidget {
-  const AnimesWidget({Key key}) : super(key: key);
+  const AnimesWidget({Key? key}) : super(key: key);
 
   @override
   _AnimesWidgetState createState() => _AnimesWidgetState();
@@ -380,4 +380,21 @@ class _AnimesWidgetState extends State<AnimesWidget> {
       ),
     );
   }
+}
+
+mixin FontAwesomeIcons {
+  static var adjust;
+}
+
+FaIcon(adjust, {color, int? size}) {
+}
+
+mixin FlutterFlowTheme {
+  static var tertiaryColor;
+
+  static var title2;
+
+  static var primaryColor;
+
+  static var bodyText1;
 }
