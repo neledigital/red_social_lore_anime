@@ -28,7 +28,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flutter:
-  font_awesome_flutter: ^9.2.0
+  font_awesome_flutter:
   google_fonts: ^2.1.0
    
 
